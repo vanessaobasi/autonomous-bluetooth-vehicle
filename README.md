@@ -2,6 +2,8 @@
 
 An Arduino-based autonomous vehicle featuring Bluetooth joystick control, infrared line tracking, acceleration measurement, and EEPROM data logging.
 
+![Autonomous Bluetooth Vehicle](images/vehicle-front.jpeg)
+
 ## Project Overview
 
 This project was developed as an individual embedded-systems project using an Arduino-based robotic car.
