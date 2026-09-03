@@ -64,6 +64,12 @@ Two infrared sensors monitor the vehicle's position relative to a black line.
 
 The `readLineSensors()` function reads the sensors, while `followLine()` compares their states and modifies the left and right motor speeds to steer the vehicle back toward the line.
 
+## Demonstration
+
+The vehicle was tested on a black-line course to demonstrate autonomous line tracking and steering response.
+
+[▶️ Watch the autonomous vehicle line-tracking demonstration](https://youtu.be/U28rmZUrEuY)
+
 ### Acceleration Measurement
 
 An MPU6050 sensor measures acceleration along the vehicle's axes.
