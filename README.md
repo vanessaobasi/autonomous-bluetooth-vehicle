@@ -1,6 +1,6 @@
 # Autonomous Bluetooth Vehicle
 
-An Arduino-based autonomous vehicle featuring Bluetooth joystick control, infrared line tracking, acceleration measurement, and EEPROM data logging.
+An Arduino-based robotic vehicle integrating Bluetooth control, autonomous infrared line tracking, acceleration sensing, and EEPROM data logging.
 
 ![Autonomous Bluetooth Vehicle](images/vehicle-front.jpeg)
 
@@ -38,6 +38,14 @@ The system also uses an MPU6050 accelerometer to measure vehicle acceleration an
 - EEPROM
 - Battery power supply
 - Robotic car chassis
+
+### Hardware Implementation
+
+The vehicle integrates the microcontroller, motor-control circuitry, sensors, power system, and supporting electronics on a compact robotic-car chassis.
+
+![Top view of autonomous vehicle hardware](images/vehicle-top.jpeg)
+
+![Angled view of autonomous vehicle assembly](images/vehicle-angle.jpeg)
 
 ## Software & Libraries
 
@@ -123,6 +131,12 @@ Potential improvements to the vehicle include:
 
 ```text
 autonomous-bluetooth-vehicle/
+├── images/
+│   ├── vehicle-front.jpeg
+│   ├── vehicle-top.jpeg
+│   └── vehicle-angle.jpeg
+├── src/
+│   └── autonomous_bluetooth_vehicle.ino
 └── README.md
 ```
 
