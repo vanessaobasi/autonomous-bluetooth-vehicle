@@ -49,7 +49,7 @@ The vehicle integrates the microcontroller, motor-control circuitry, sensors, po
 
 ## Software & Libraries
 
-- Arduino / C++
+- Arduino / C
 - ArduinoBlue
 - SoftwareSerial
 - Wire / I2C
